@@ -1038,3 +1038,8 @@ body *{
  transform: scaleX(1);
  transform-origin: bottom left;
 }
+
+footer .nav{
+  --bs-nav-link-hover-color:white;
+  font-weight: 200;
+}
