@@ -999,4 +999,13 @@ body *{
     text-align: center!important;
 }
 
+#pricing h1{
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+}
 
+#pricing{
+  --bs-btn-bg:#BA68C8;
+  --bs-btn-border-color:white;
+  --bs-btn-hover-background:#BA68C8;
+}
