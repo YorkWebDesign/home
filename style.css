@@ -387,9 +387,6 @@ hr{
     font-weight:200;
 }
 
-.nav-link:hover{
-    border-bottom: 1px solid white;
-}
 
 .nav-link:active{
     border-bottom: 1px solid white;
@@ -1010,4 +1007,34 @@ body *{
   --bs-btn-hover-background:#BA68C8;
   --bs-btn-hover-bg:#BA68C8;
   --bs-btn-hover-border-color:white;
+}
+
+.w3rcontainer{
+  border: 1px solid 
+#cccfdb;
+  border-radius: 2px;
+} 
+.hover-underline-animation {
+ display: inline-block;
+ position: relative;
+ color: white;
+}
+
+.hover-underline-animation:after {
+ content: '';
+ position: absolute;
+ transform: scaleX(0);
+ height: 2px;
+ bottom: 0;
+ width: 100%;
+ left: 0;
+ background-color: 
+#ffffff;
+ transform-origin: bottom right;
+ transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+ transform: scaleX(1);
+ transform-origin: bottom left;
 }
