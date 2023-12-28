@@ -1004,8 +1004,10 @@ body *{
   margin-top: 2rem;
 }
 
-#pricing{
-  --bs-btn-bg:#BA68C8;
+.btn-primary{
+  --bs-btn-bg:black;
   --bs-btn-border-color:white;
   --bs-btn-hover-background:#BA68C8;
+  --bs-btn-hover-bg:#BA68C8;
+  --bs-btn-hover-border-color:white;
 }
