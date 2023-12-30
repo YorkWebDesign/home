@@ -1005,7 +1005,7 @@ body *{
   --bs-btn-bg:#BA68C8;
   --bs-btn-border-color:white;
   --bs-btn-hover-background:#BA68C8;
-  --bs-btn-hover-bg:#BA68C8;
+  --bs-btn-hover-bg:black;
   --bs-btn-hover-border-color:white;
   --bs-btn-active-bg: black;
 }
@@ -1043,4 +1043,69 @@ body *{
 footer .nav{
   --bs-nav-link-hover-color:white;
   font-weight: 200;
+}
+
+
+/*Slide in transition */
+.slide-in-from-left{
+  -webkit-animation: slideIn 2s forwards;
+  -moz-animation: slideIn 2s forwards;
+  animation: slideIn 2s forwards;
+}
+@-webkit-keyframes slideIn {
+  0% {
+    transform: translateX(-900px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@-moz-keyframes slideIn {
+  0% {
+    transform: translateX(-900px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes slideIn {
+  0% {
+    transform: translateX(-900px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+
+/*Slide in transition */
+.slide-in-from-right{
+  -webkit-animation: slideInRight 2s forwards;
+  -moz-animation: slideInRight 2s forwards;
+  animation: slideInRight 2s forwards;
+}
+@-webkit-keyframes slideInRight {
+  0% {
+    transform: translateX(900px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@-moz-keyframes slideInRight {
+  0% {
+    transform: translateX(900px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes slideInRight {
+  0% {
+    transform: translateX(900px);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
