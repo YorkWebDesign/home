@@ -425,7 +425,14 @@ hr{
     }
 
     .header-text h1{
-        font-size: 2.8rem;
+        font-size: 1.8rem;
+    }
+    .header-text p{
+      font-size: smaller;
+    }
+
+    .mock-up-desktop-display{
+      padding-bottom: none;
     }
 }
 
@@ -1046,6 +1053,9 @@ footer .nav{
 }
 
 
+
+
+@media only screen and (min-width:720px){
 /*Slide in transition */
 .slide-in-from-left{
   -webkit-animation: slideIn 2s forwards;
@@ -1108,4 +1118,6 @@ footer .nav{
   100% {
     transform: translateX(0);
   }
+}
+
 }
