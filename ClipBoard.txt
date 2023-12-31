@@ -18,3 +18,7 @@ https://www.augustalawncareservices.com/whatcom
 https://www.craigkallen.com/personal-injury-attorney 
 
 https://www.earthboundtrading.com/
+
+
+new example sites, new pictures for them
+And titles on the features list <h1>s or <h2>site
