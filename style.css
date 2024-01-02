@@ -18,7 +18,7 @@
   background-image: linear-gradient(
     to bottom,
     #000000,
-    #000000
+    #11003e
   ), url("catfront.png");
   
   background-size: 100vw auto;
@@ -82,12 +82,11 @@
     margin:0px;
     width:100%;
     padding-top:0;
-    padding-bottom:5vh;
     max-width:1101px;
     margin:auto;
     align-content: center;
-    padding-left:5%;
-    padding-right:5%;
+    padding-left:1.5%;
+    padding-right:1.5%;
 
 }
 
@@ -309,11 +308,12 @@ transform:translateY(-50%);
 
 
 .pricing-box {
-  -webkit-box-shadow: 0px 5px 30px -10px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 5px 30px -10px rgba(0, 0, 0, 0.1);
   padding: 35px 50px;
-  border-radius: 20px;
   position: relative;
+  border-bottom: 1px #11023f solid;
+  -webkit-box-shadow: 0px 5px 14px -10px #110055;
+  box-shadow: 0px 5px 14px -10px #110055;
+  border-radius: 20px;
 }
 
 .pricing-box .plan {
@@ -521,6 +521,7 @@ hr{
 /*------- portfolio -------*/
 .project {
   margin: 15px 0;
+  border-radius:20px;
 }
 
 .no-gutter .project {
@@ -583,6 +584,9 @@ hr{
   position: relative;
   text-align: center;
   z-index: 2;
+  border-radius:20px;
+  border-bottom: 1px solid;
+  box-shadow: 0px 25px 44px 0px #11005521;
 }
 
 .hovereffect .overlay {
@@ -792,8 +796,11 @@ hr{
 
 .boxed-portfolio .card {
   background-color: #fff;
-  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.025), 0 1px 4px rgba(0, 0, 0, 0.05) !important;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.025), 0 1px 4px rgba(0, 0, 0, 0.05) !important;
+  -webkit-box-shadow: 0px 5px 14px -10px #110055;
+  box-shadow: 0px 5px 14px -10px #110055;
+  border-radius: 20px;
+  margin:auto;
+  max-width: fit-content;
 }
 
 .boxed-portfolio .hovereffect img, .boxed-portfolio .hovereffect .overlay {
@@ -804,7 +811,9 @@ hr{
 
 .boxed-portfolio .card-body {
   padding: 25px 30px;
-  border-top: 1px solid #efefef;
+  background-image: linear-gradient( to bottom, #000000, #11003e ), url(catfront.png);
+  border-bottom: 1px #11023f solid;
+  border-radius: 20px;
 }
 .font-size-16, .fs-16 {
     font-size: 16px !important;
@@ -816,7 +825,7 @@ hr{
     margin-bottom: 0;
 }
 .title-link, .title-link:focus {
-    color: #171819;
+    color: #ffffff;
 }
 .boxed-portfolio .card {
     background-color: #fff;
@@ -1004,12 +1013,11 @@ body *{
 }
 
 #pricing h1{
-  margin-bottom: 5rem;
   margin-top: 2rem;
 }
 
 .btn-primary{
-  --bs-btn-bg:#BA68C8;
+  --bs-btn-bg:#16014e;
   --bs-btn-border-color:white;
   --bs-btn-hover-background:#BA68C8;
   --bs-btn-hover-bg:black;
@@ -1121,3 +1129,6 @@ footer .nav{
 }
 
 }
+
+
+
