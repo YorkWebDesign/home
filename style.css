@@ -584,7 +584,7 @@ hr{
   text-align: center;
   z-index: 2;
   border-radius:20px;
-  border-bottom: 1px solid;
+  border: 1px solid black;
   box-shadow: 0px 25px 44px 0px #11005521;
 }
 
@@ -633,11 +633,7 @@ hr{
   border-radius: 0;
 }
 
-.hovereffect:hover img {
-  -webkit-transform: rotate(-7deg) scale(1.33);
-  -ms-transform: rotate(-7deg) scale(1.33);
-  transform: rotate(-7deg) scale(1.33);
-}
+
 
 .hovereffect-title .project-title-wrapper {
   position: absolute;
@@ -795,8 +791,7 @@ hr{
 
 .boxed-portfolio .card {
   background-color: #fff;
-  -webkit-box-shadow: 0px 5px 14px -10px #110055;
-  box-shadow: 0px 5px 14px -10px #110055;
+
   border-radius: 20px;
   margin:auto;
   max-width: fit-content;
@@ -1198,7 +1193,7 @@ footer .nav{
 
 
 .fa-icon-image{ 
-	color: #120086; 
+	color: #B967C7;
 	display: inline-block; 
     font-style: normal;
     font-variant: normal;
