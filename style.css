@@ -1218,7 +1218,7 @@ ul.timeline {
 /* Timeline vertical line */
 ul.timeline:before {
   content: ' ';
-  background: linear-gradient( to bottom, #000000, #540255 ), url(catfront.png);
+  background: linear-gradient( to bottom, #fff, #BA68C8 ), url(catfront.png);
   display: inline-block;
   position: absolute;
   left: 16px;
