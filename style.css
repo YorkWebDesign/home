@@ -401,6 +401,22 @@ hr{
     animation-iteration-count: infinite;
 }
 
+.bounce1{
+  animation-name: bounce;
+  animation-timing-function: linear;
+  animation-duration: 3.5s;
+  animation-iteration-count: infinite;
+  animation-delay:1s
+}
+
+.bounce2{
+  animation-name: bounce;
+  animation-timing-function: linear;
+  animation-duration: 3.5s;
+  animation-iteration-count: infinite;
+  animation-delay:2s
+}
+
 @keyframes bounce {
     0% {transform: translateY(0);}
     50%{transform: translateY(10px);}
@@ -1220,7 +1236,7 @@ ul.timeline {
 /* Timeline vertical line */
 ul.timeline:before {
   content: ' ';
-  background: linear-gradient( to bottom, #fff, #BA68C8 ), url(catfront.png);
+  background: linear-gradient( to bottom, #fff, #11003e ), url(catfront.png);
   display: inline-block;
   position: absolute;
   left: 16px;
