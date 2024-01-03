@@ -1282,3 +1282,9 @@ li.timeline-item::before {
   padding-right:1.5%;
   justify-content: center;
 }
+
+.apple-style-h2{
+  font-weight:230;
+  text-align: center;
+  
+}
