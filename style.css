@@ -14,13 +14,13 @@
     margin-bottom: 4vh;
     margin-right: 0%;
     color:var(--main-text-color);
-/*
+
   background-image: linear-gradient(
     to bottom,
     #000000,
     #11003e
   ), url("catfront.png");
-  */
+  
   background-size: 100vw auto;
   background-repeat: no-repeat;
   height:auto;
@@ -1128,7 +1128,7 @@ footer .nav{
 
 
 .text-success-purple{
-  color:#B967C7;
+  color:#120086;
 }
 
 
