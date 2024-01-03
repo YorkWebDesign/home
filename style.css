@@ -1232,6 +1232,7 @@ ul.timeline:before {
 
 li.timeline-item {
   margin: 20px 0;
+  border-bottom: 1px solid black;
 }
 
 /* Timeline item arrow */
