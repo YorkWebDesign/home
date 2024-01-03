@@ -1,5 +1,5 @@
 :root {
-    --main-color:rgb(177, 139, 216,0);
+    --main-color:rgb(0, 0, 0);
     /*Old purple color rgba(55,36,76,1) */
     /*Color from oak harbor website ##1a6ec8 */
     /* #f3f5ff purple from basic figma site */
@@ -14,13 +14,13 @@
     margin-bottom: 4vh;
     margin-right: 0%;
     color:var(--main-text-color);
-
+/*
   background-image: linear-gradient(
     to bottom,
     #000000,
     #11003e
   ), url("catfront.png");
-  
+  */
   background-size: 100vw auto;
   background-repeat: no-repeat;
   height:auto;
@@ -145,6 +145,8 @@ footer{
 .row{
     padding-top:3vh;
     font-size: 0.9rem;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 
@@ -1126,7 +1128,7 @@ footer .nav{
 
 
 .text-success-purple{
-  color:#120086;
+  color:#B967C7;
 }
 
 
