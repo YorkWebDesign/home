@@ -358,7 +358,6 @@ p {
 }
 
 #pricing{
-    padding-bottom:8vh;
     max-width: 1101px;
 }
 
@@ -442,7 +441,7 @@ hr{
     }
 
     .header-text h1{
-        font-size: 1.8rem;
+       /* font-size: 1.8rem;*/
     }
     .header-text p{
       font-size: smaller;
