@@ -492,11 +492,15 @@ hr{
     }
 }
 
+@media only screen and (min-width:1080px) {
+  .header-text h1{
+      font-size:4.0rem;
+      padding-top:2.5vh;
+  }
+}
+
+
 @media only screen and (min-width:2048px) {
-    .header-text h1{
-        font-size:4.0rem;
-        padding-top:2.5vh;
-    }
     .header-text p{
         font-size:1.3rem;
     }
