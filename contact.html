@@ -80,19 +80,19 @@
               <form class="form" name="enq" method="post" onclick="submit()" onsubmit="">
                 <div class="row">
                   <div class="form-group col-md-6" >
-                    <input type="text" name="name" class="form-control" placeholder="Name" required="required">
+                    <input type="text" name="name" class="form-control" placeholder="Name" id="nameInput" >
                   </div>
                   <div class="form-group col-md-6">
-                    <input type="email" name="email" class="form-control" placeholder="Email" required="required">
+                    <input type="" name="Company" class="form-control" placeholder="Company" id="companyInput">
                   </div>
                   <div class="form-group col-md-12">
-                    <input type="text" name="subject" class="form-control" placeholder="Subject" required="required">
+                    <input type="text" name="subject" class="form-control" placeholder="Subject" id="subjectInput">
                   </div>
                   <div class="form-group col-md-12">
-                    <textarea rows="6" name="message" class="form-control" placeholder="Your Message" required="required"></textarea>
+                    <textarea rows="6" name="message" class="form-control" placeholder="Your Message" id="messageInput"></textarea>
                   </div>
                   <div class="col-md-12 text-center">
-                    <button type="submit" value="Send message" name="submit" id="submitButton" class="btn btn-contact-bg" title="Submit Your Message!">Send Message</button>
+                    <button type="submit" onclick="OpenAndFillEmailClient()" value="Send message" name="submit" id="submitButton" class="btn btn-contact-bg" title="Submit Your Message!">Send Message</button>
                   </div>
                 </div>
               </form>
