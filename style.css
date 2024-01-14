@@ -507,7 +507,9 @@ hr{
         width:480px;
     }
     .jumbo-row{
-        max-width:1400px;
+        padding-left:0%;
+        padding-right:0%;
+
     }
     p{
         font-size: medium;
@@ -533,6 +535,9 @@ hr{
     hr{
         margin-left:0px;
         margin-right:0px;
+    }
+    .header-text h1{
+      font-size:4.7rem;
     }
 
 }
