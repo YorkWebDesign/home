@@ -9,8 +9,8 @@
 
 .jumbotron {    
     background-color:  var(--main-color);
-    padding-top:2vh;
-    padding-bottom:7vh;
+    padding-top:1vh;
+    padding-bottom:3vh;
     margin-bottom: 3vh;
     margin-right: 0%;
     color:var(--main-text-color);
@@ -128,7 +128,6 @@ footer{
    width:502px;
    height:auto;
    margin-top:-1vh;
-   z-index: -100;
    overflow: hidden;
    display: flex;
    padding-bottom:3vh;
@@ -505,9 +504,6 @@ hr{
 
 
 @media only screen and (min-width:2048px) {
-    .header-text p{
-        font-size:1.3rem;
-    }
     .jumbotron img{
         width:568px;
     }
