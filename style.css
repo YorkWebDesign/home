@@ -9,9 +9,9 @@
 
 .jumbotron {    
     background-color:  var(--main-color);
-    padding-top:0vh;
-    padding-bottom:3vh;
-    margin-bottom: 4vh;
+    padding-top:2vh;
+    padding-bottom:7vh;
+    margin-bottom: 3vh;
     margin-right: 0%;
     color:var(--main-text-color);
 
@@ -125,7 +125,7 @@ footer{
 
 
 .mock-up-desktop-display{
-   width:417px;
+   width:502px;
    height:auto;
    margin-top:-1vh;
    z-index: -100;
@@ -273,8 +273,9 @@ transform:translateY(-50%);
     margin:auto;
     align-content: center;
     max-width:1101px;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-top:0;
     
 }
 
@@ -498,7 +499,7 @@ hr{
 }
 @media only screen and (min-width:1080px) {
   .header-text h1{
-      font-size:4.0rem;
+      font-size:4.7rem;
   }
 }
 
