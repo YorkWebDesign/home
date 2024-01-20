@@ -220,14 +220,11 @@ transform:translateY(-50%);
     margin:auto;
 }
 
-.whiteSection h2{
-    font-size:1rem;
-    text-align: center;
-    font-weight: bold;
+.whiteSection h5{
+  text-align:center;
 }
 
 .whiteSection p{
-    font-size: 0.8rem;
     align-items: center;
   
 }
@@ -256,7 +253,9 @@ transform:translateY(-50%);
 }
 
 .header-text h1 {
-    font-size:3rem;
+    font-size:2.7rem;
+    font-weight: 750 ;
+    line-height: 1.35;
 }
 
 
@@ -354,11 +353,7 @@ transform:translateY(-50%);
     margin-bottom: .5rem!important;
 }
 p {
-    line-height: 1.7;
-}
-
-#pricing{
-    max-width: 1101px;
+    line-height: 1.4;
 }
 
 .img-text h1{
@@ -380,13 +375,6 @@ hr{
     margin-left:5%;
     margin-right:5%;
 }
-
-
-
-#wwd{
-    font-weight:200;
-}
-
 
 .nav-link:active{
     border-bottom: 1px solid white;
@@ -453,28 +441,31 @@ hr{
 }
 
 @media only screen and (max-width: 720px) {
-.imagebox,
-.textbox-cont{
-    width:100%;
-    overflow:hidden;
-    }
-.img{
-    height:300px;
-}
-#plus{
-    display:none;
-}
+  .imagebox,
+  .textbox-cont{
+      width:100%;
+      overflow:hidden;
+      }
+  .img{
+      height:300px;
+  }
 
-.img-text{
-    padding-left: 0vw;
-    padding-right: 0vw;
-}
-
+  .img-text{
+      padding-left: 0vw;
+      padding-right: 0vw;
+  }
 
 }
 
-#whatwedo{
-    font-size:smaller;
+
+.heading{
+    text-align: center;
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+
+.section-spacing{
+  padding-bottom: 35px;
 }
 
 @media only screen and (max-width: 500px) {
@@ -493,12 +484,12 @@ hr{
 }
 @media only screen and (min-width:885px){
   .header-text h1{
-    font-size:3.7rem;
+    font-size:3.5rem;
   }
 }
 @media only screen and (min-width:1080px) {
   .header-text h1{
-      font-size:4.7rem;
+      font-size:4.30rem;
   }
 }
 
@@ -538,7 +529,7 @@ hr{
         margin-right:0px;
     }
     .header-text h1{
-      font-size:4.7rem;
+      font-size:4.58rem;
     }
 
 }
@@ -1239,4 +1230,18 @@ footer .nav{
   font-weight:230;
   text-align: center;
   
+}
+
+h1{
+  font-weight: 750;
+  line-height: 1.35;
+}
+
+
+
+.body-font{
+  font-weight:200;
+  color:#000000;
+  font-size: 1rem;
+
 }
