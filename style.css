@@ -1251,6 +1251,7 @@ h1{
   color:white;
   padding-left: 0;
   padding-right:0;
+  margin-top: -1px;
 }
 
 .custom-shape-divider-top-1705956905 {
@@ -1265,8 +1266,8 @@ h1{
 .custom-shape-divider-top-1705956905 svg {
   position: relative;
   display: block;
-  width: calc(164% + 1.3px);
-  height: 32px;
+  width: calc(204% + 1.3px);
+  height: 173px;
 }
 
 .custom-shape-divider-top-1705956905 .shape-fill {
@@ -1286,8 +1287,8 @@ h1{
 .custom-shape-divider-bottom-1705956281 svg {
   position: relative;
   display: block;
-  width: calc(156% + 1.3px);
-  height: 32px;
+  width: calc(204% + 1.3px);
+  height: 173px;
 }
 
 .custom-shape-divider-bottom-1705956281 .shape-fill {
