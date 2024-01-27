@@ -55,7 +55,8 @@
 .nav-link{
     padding-left:1rem;
     color:white;
-    font-size:smaller;
+    font-weight:200;
+    font-size: 1rem;
 }
 
 
