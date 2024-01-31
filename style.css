@@ -432,7 +432,7 @@ hr{
        font-size: 2.8rem;
     }
     .header-text p{
-      font-size: smaller;
+      /* font-size: smaller; */
     }
 
     .mock-up-desktop-display{
@@ -468,71 +468,7 @@ hr{
   padding-bottom: 35px;
 }
 
-@media only screen and (max-width: 500px) {
-    .imagebox,
-    .textbox-cont{
-        width:95%;
-        height:455px;
-        
-        overflow:hidden;
-        padding-left:0vw;
-        padding-right:1vw;
-        }
-    .img{
-        height:300px;
-    }
-}
-@media only screen and (min-width:885px){
-  .header-text h1{
-    font-size:3.5rem;
-  }
-}
-@media only screen and (min-width:1080px) {
-  .header-text h1{
-      font-size:4.30rem;
-  }
-}
 
-
-@media only screen and (min-width:2048px) {
-    .jumbotron img{
-        width:568px;
-    }
-    .jumbo-row{
-        padding-left:0%;
-        padding-right:0%;
-
-    }
-    p{
-        font-size: medium;
-    }
-    .whiteSection row{
-        max-width:1400px;
-
-    }
-    .whiteSection{
-        padding-left: 0%;
-        padding-right: 0%;
-    }
-    .whiteSection p{
-        font-size:medium;
-    }
-
-    .textbox p{
-        font-size:medium;
-    }
-    .textbox h2{
-        font-size:large;
-    }
-    hr{
-        margin-left:0px;
-        margin-right:0px;
-    }
-    .header-text h1{
-      font-size:4.58rem;
-    }
-
-}
 
 
 /*------- portfolio -------*/
@@ -1295,4 +1231,126 @@ h1{
 
 .custom-shape-divider-bottom-1705956281 .shape-fill {
   fill: #FFFFFF;
+}
+
+.widthAndPaddingStandard{
+  max-width: 1101px;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  margin: auto;
+}
+
+.branding{
+  color: white; 
+   margin-left: 1.5%;
+   font-size: 1.3rem;
+   text-decoration:none;
+}
+
+
+
+@media only screen and (max-width: 500px) {
+  .imagebox,
+  .textbox-cont{
+      width:95%;
+      height:455px;
+      
+      overflow:hidden;
+      padding-left:0vw;
+      padding-right:1vw;
+      }
+  .img{
+      height:300px;
+  }
+}
+@media only screen and (min-width:885px){
+.header-text h1{
+  font-size:3.5rem;
+}
+}
+@media only screen and (min-width:1080px) {
+.header-text h1{
+    font-size:4.30rem;
+}
+}
+
+
+@media only screen and (min-width:2048px) {
+  .jumbotron img{
+      width:568px;
+  }
+  .jumbo-row{
+      padding-left:0%;
+      padding-right:0%;
+
+  }
+  p{
+      font-size: medium;
+  }
+  .whiteSection row{
+      max-width:1400px;
+
+  }
+  .whiteSection{
+      padding-left: 0%;
+      padding-right: 0%;
+  }
+  .whiteSection p{
+      font-size:medium;
+  }
+
+  .textbox p{
+      font-size:medium;
+  }
+  .textbox h2{
+      font-size:large;
+  }
+  hr{
+      margin-left:0px;
+      margin-right:0px;
+  }
+  .header-text h1{
+    font-size:4.58rem;
+  }
+
+  .widthAndPaddingStandard{
+    padding-left:0%;
+    padding-right:0%;
+  }
+
+}
+
+
+
+.jumbotron-image-col{
+  justify-content: end;
+}
+
+@media only screen and (max-width:768px) {
+    .jumbotron-image-col{
+      justify-content:center;
+    }
+
+    .jumbotron-image-col svg{
+      width:80%;
+      height:auto;
+      padding-bottom:0px;
+    }
+
+    .header-text p{
+      text-align:center;
+      width:72%;
+      margin:auto;
+      padding:2%;
+      padding-bottom:10px;
+    }
+
+    .header-text h1{
+      text-align:center;
+      font-size:3.6rem;
+    }
+
+    .header-text .btn{
+      display:none;
+    }
 }
