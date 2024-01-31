@@ -1359,10 +1359,14 @@ h1{
 @media only screen and (max-width: 456px)
 {
   .header-text h1{
-    font-size:3.1rem;
+    font-size:2.8rem;
   }
   .header-text p{
     font-size:smaller;
+    width:90%;
+  }
+  .jumbotron-image-col svg{
+    width: 90%;
   }
 
 }
