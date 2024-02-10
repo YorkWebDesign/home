@@ -1379,4 +1379,7 @@ h1{
   nav .btn{
     display:none;
   }
+  .branding{
+    display:none;
+  }
 }
