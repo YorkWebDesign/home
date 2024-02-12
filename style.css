@@ -1398,3 +1398,19 @@ h1{
     display:none;
   }
 }
+
+@media only screen and (max-width:768px){
+  .iconTextContainer1{
+    margin-top:0;
+    margin-bottom:0;
+    padding-top:0;
+    padding-bottom:0;
+  }
+  .iconTextContainer2{
+    margin-top:0;
+    margin-bottom:0;
+    padding-top:0;
+    padding-bottom:0;
+  }
+
+}
