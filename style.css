@@ -222,11 +222,12 @@ transform:translateY(-50%);
 
 .whiteSection h5{
   text-align:center;
+  font-weight:750;
+  padding:4px;
 }
 
 .whiteSection p{
     align-items: center;
-  
 }
 
 .textbox h2{
