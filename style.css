@@ -222,7 +222,7 @@ transform:translateY(-50%);
     margin:auto;
 }
 
-.whiteSection h5{
+.whiteSection .iconText h5{
   text-align:center;
   font-weight:888;
   padding:5px;
@@ -1436,7 +1436,7 @@ h1{
   position: relative;
   display: block;
   width: calc(166% + 1.3px);
-  height: 150px;
+  height: 101px;
 }
 
 .custom-shape-divider-top-1708260375 .shape-fill {
@@ -1446,4 +1446,27 @@ h1{
 #pricing{
   padding-top: 78px;
   padding-bottom: 103px;
+}
+
+.pricing-box .btn-primary{
+  width:100%;
+}
+
+footer h5{
+  padding:0px;
+}
+
+footer {
+  background-image: linear-gradient( to bottom, #000000, #11003e ), url(catfront.png);
+}
+
+footer li a{
+  color:white;
+  text-decoration: none;
+  font-weight:200;
+}
+
+footer h5{
+  text-align:left;
+  font-weight:888;
 }
