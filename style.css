@@ -1242,7 +1242,7 @@ h1{
 .branding{
   color: white; 
    position:relative;
-   left:1.4%;
+   left:4px;
    font-size: 1.3rem;
    text-decoration:none;
 }
@@ -1288,6 +1288,16 @@ h1{
       padding-right:0%;
 
   }
+
+  nav .btn{
+    margin-right:1.5%;
+    width:200px;
+  }
+  nav .branding{
+    padding-left:1.5%;
+    width:200px;
+  }
+
   p{
       font-size: medium;
   }
@@ -1473,4 +1483,14 @@ footer li a:hover{
 footer h5{
   text-align:left;
   font-weight:888;
+}
+
+
+
+nav .btn{
+  width:200px;
+  margin-right:1.5%
+}
+nav .branding{
+  width:200px;
 }
